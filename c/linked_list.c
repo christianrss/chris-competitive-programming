@@ -69,6 +69,7 @@ int main(void) {
                 } else {
                     printf("List is empty.\n\n");
                 }
+                break;
             case 5:
                 if (!isEmpty(head)) {
                     deleteAtBeginning(&head);
